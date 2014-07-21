@@ -2,8 +2,8 @@ require "formula"
 
 class GitFeatureBranch < Formula
   homepage "https://github.com/sheldon/git-feature-branch"
-  url "https://github.com/sheldon/git-feature-branch/archive/v0.1.tar.gz"
-  sha1 "976f9ec14cd0ec5e2d279c57eb1b3609e99c0e7a"
+  url "https://github.com/sheldon/git-feature-branch/archive/v0.2.tar.gz"
+  sha1 "757c5c18de8e1b9f115f78c2273ad7ed27156c44"
 
   def install
     bin.install "git-feature-branch"
