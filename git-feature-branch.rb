@@ -8,6 +8,7 @@ class GitFeatureBranch < Formula
 
   def install
     bin.install "git-feature-branch"
+    man1.install "git-feature-branch.1"
   end
 
   test do
